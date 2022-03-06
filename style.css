@@ -1,4 +1,14 @@
-.Sidemenu {
+.main {
+  margin-left: 160px;
+  padding: 10px;
+}
+
+
+#HomeHead {
+  width: 100%;
+  text-align: center;
+}
+#Sidemenu {
   height: 100%;
    width: 160px;
    position: fixed;
@@ -6,13 +16,43 @@
    top: 0;
    left: 0;
    padding-top: 20px;
+   float: left;
+   background-color: black;
+   overflow-x: hidden;
 }
 
-#HomeHead {
-text-align: center;
-
+.SMContent {
+  display: block;
+  padding: 16px;
+  font-size: 35px;
 }
 
 .tripBar {
-  right: 70%;
+display: block;
+}
+
+.TBContent {
+
+}
+
+.item {
+  width:100%;
+  float: right;
+}
+
+.Gallery {
+  margin-left: 160px;
+}
+
+.OuterShell {
+  width: 100%;
+  display: block;
+}
+.buffer {
+  padding: 20px;
+}
+.innerContainer {
+  width: 150px;
+  float: left;
+  padding: 80px;
 }
