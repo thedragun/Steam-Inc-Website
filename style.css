@@ -21,6 +21,11 @@
    overflow-x: hidden;
 }
 
+.container {
+  display: block;
+  overflow-y: scroll;
+}
+
 .SMContent {
   display: block;
   padding: 16px;
