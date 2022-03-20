@@ -1,6 +1,8 @@
 .main {
   margin-left: 160px;
   padding: 10px;
+  background-color: black;
+  color: white;
 }
 
 
@@ -8,6 +10,11 @@
   width: 100%;
   text-align: center;
 }
+
+#homeTitle {
+  background-color: grey;
+}
+
 #Sidemenu {
   height: 100%;
    width: 160px;
@@ -41,11 +48,6 @@ display: block;
   grid-template-columns: auto auto auto;
 }
 
-.item {
-  width:100%;
-  float: right;
-}
-
 .recommendedTrips {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -56,8 +58,4 @@ display: block;
   grid-template-columns: auto auto auto;
   grid-row-gap: 20px;
   grid-column-gap: 5px;
-}
-
-.booking {
-  padding: 60px;
 }
