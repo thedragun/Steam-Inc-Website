@@ -36,8 +36,9 @@
 display: block;
 }
 
-.TBContent {
-
+.bookingImageGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .item {
@@ -45,19 +46,18 @@ display: block;
   float: right;
 }
 
-.Gallery {
-  margin-left: 160px;
+.recommendedTrips {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
-.OuterShell {
-  width: 100%;
-  display: block;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 5px;
 }
-.buffer {
-  padding: 20px;
-}
-.innerContainer {
-  width: 150px;
-  float: left;
-  padding: 80px;
+
+.booking {
+  padding: 60px;
 }
