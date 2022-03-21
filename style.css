@@ -43,6 +43,11 @@
 display: block;
 }
 
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
 .bookingImageGrid {
   display: grid;
   grid-template-columns: auto auto auto;
