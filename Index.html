@@ -102,29 +102,50 @@ to add trips to recommended trips
 <a id="Booking"></a>
 <div class="Booking">
   <div id="Product_List">
+
    <div Class="product item">
      <img class="image" src="Images/Diesel-Loco-Da1471.jpg" alt="">
      <h2>City To Port</h2>
      <h2>Locomotive: Diesel Locomotive Da1471</h2>
-     <p>Adult    $149/person \n Child       $79/person</p>
-     <p>Depature:    8:30am Paekakariki \n Arrival     8:45pm Paekakariki</p>
-     <p>Join the Steam Incorporated team for a day of rail travel through to the port center of Whanganui on the 27th of November 2022.\n Being a city with close ties to the sea, it serves as a facility for coastal freight vessels as well as commercial boats.\n The day serves as a rare opportunity to travel by heritage steam train from the Kapiti district, up to the port city of Whanganui.\n Options available for a river cruise and market visits.</p>
 
+     <p>Adult    $149/person <button id="CTPAdult">Book</button> </p>
+     <p>Child    $79/person <button id="CTPChild">Book</button> </p>
+     <p>Family   $219/2 adults 2 Children <button id="CTPFamily">Book</button> </p>
+
+     <p>Depature:    8:30am Paekakariki </p>
+     <p>Arrival:     8:45pm Paekakariki</p>
+
+     <p>Join the Steam Incorporated team for a day of rail travel through to the port center of Whanganui on the 27th of November 2022.</p>
+     <p>Being a city with close ties to the sea, it serves as a facility for coastal freight vessels as well as commercial boats.</p>
+     <p>The day serves as a rare opportunity to travel by heritage steam train from the Kapiti district, up to the port city of Whanganui.</p>
+     <p>Options available for a river cruise and market visits.</p>
    </div>
 
    <div Class="product item">
      <img class="image" src="Images/Passchendaele-Ab608.jpg" alt="">
      <h2>The Whanganui Wanderer</h2>
      <h2>Locomotive: Passchendaele Ab608</h2>
-     <p>Adult    $149/person \n Child       $79/person\nFamily    $219/2 adults 2 Children</p>
-     <p>Depature:    11:30am Palmerston North \n Arrival     6:00pm Palmerston North</p>
-     <p>Join the Steam Incorporated team for a 92km jaunt behind one of our heritage steam\n locomotives from Palmerston North to Whanganui and return on the 27th November 2022.\n Board the train at Palmerston North or Feilding.\n A great afternoon out for the whole family!</p>
+
+     <p>Adult     $149/person <button id="wandererfamily">Book</button> </p>
+     <p>Child     $79/person <button id="wandererChild">Book</button> </p>
+     <p>Family    $219/2 adults 2 Children <button id="wandererfamily">Book</button> </p>
+
+     <p>Depature:    11:30am Palmerston North</p>
+     <p>Arrival     6:00pm Palmerston North</p>
+
+     <p>Join the Steam Incorporated team for a 92km jaunt behind one of our heritage steam</p>
+     <p>locomotives from Palmerston North to Whanganui and return on the 27th November 2022.</p>
+     <p>Board the train at Palmerston North or Feilding.\n A great afternoon out for the whole family!</p>
    </div>
 
   </div>
 
   <div Class="shoppingCart">
-  <!-- find a good shopping cart html layout -->
+  <h2>Cart</h2>
+    <div class="cartTemplateItem">
+      <p>town to town</p>
+      <p>1X Adult $149</p> <button name="CartIncrementUp">+</button> <button name="CartIncrementDown">-</button>
+    </div>
   </div>
 
 </div>
