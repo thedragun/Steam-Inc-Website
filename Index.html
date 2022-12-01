@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Steam Inc Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="java.js" async></script>
+
+    </script>
   </head>
   <body id = "body">
 
@@ -28,7 +31,7 @@
 <h1 id="homeTitle">Home</h1>
 <div class="tripBar">
   <div class="item">
-    <img src="Images/Placeholder.jpg" alt="">
+    <!--<img src="Images/Placeholder.png" alt=""> Placeholder Image-->
   </div>
 </div>
 </div>
@@ -107,10 +110,11 @@ to add trips to recommended trips
      <img class="image" src="Images/Diesel-Loco-Da1471.jpg" alt="">
      <h2>City To Port</h2>
      <h2>Locomotive: Diesel Locomotive Da1471</h2>
+      <div class="shop-item-details">
 
-     <p>Adult    $149/person <button id="CTPAdult">Book</button> </p>
-     <p>Child    $79/person <button id="CTPChild">Book</button> </p>
-     <p>Family   $219/2 adults 2 Children <button id="CTPFamily">Book</button> </p>
+     <p class='shop-item-title'>Seat</p>
+     <p class="shop-item-price">$164.99</p>  <button class="btn, btn-primary, shop-item-btn" id="Seat">Add to Cart</button>
+     </div>
 
      <p>Depature:    8:30am Paekakariki </p>
      <p>Arrival:     8:45pm Paekakariki</p>
@@ -125,10 +129,11 @@ to add trips to recommended trips
      <img class="image" src="Images/Passchendaele-Ab608.jpg" alt="">
      <h2>The Whanganui Wanderer</h2>
      <h2>Locomotive: Passchendaele Ab608</h2>
+     <div class="shop-item-details">
 
-     <p>Adult     $149/person <button id="wandererfamily">Book</button> </p>
-     <p>Child     $79/person <button id="wandererChild">Book</button> </p>
-     <p>Family    $219/2 adults 2 Children <button id="wandererfamily">Book</button> </p>
+       <p class='shop-item-title'>Seat</p>
+       <span class="shop-item-price">$164.99</span>  <button class="btn, btn-primary, shop-item-btn" id="Seat">Add to Cart</button>
+     </div>
 
      <p>Depature:    11:30am Palmerston North</p>
      <p>Arrival     6:00pm Palmerston North</p>
@@ -142,10 +147,14 @@ to add trips to recommended trips
 
   <div Class="shoppingCart">
   <h2>Cart</h2>
-    <div class="cartTemplateItem">
-      <p>town to town</p>
-      <p>1X Adult $149</p> <button name="CartIncrementUp">+</button> <button name="CartIncrementDown">-</button>
+    <div class="cartItems">
     </div>
+
+    <div class="CartTotal">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button" >Purchase</button>
   </div>
 
 </div>
