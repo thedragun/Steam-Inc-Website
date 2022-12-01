@@ -111,3 +111,22 @@ function UpdateCartTotal() {
       total = Math.round(total * 100) / 100
       document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
+
+//Login
+var username = document.getElementById('username')[0]
+var password = document.getElementById('password')[0]
+
+
+if (username == '' || password == '') {
+    alert('You have not entered any information')
+  }
+
+  function login() {
+    console.log('click');
+    alert("You have logged in, welcome User");
+  }
+
+  function register() {
+    console.log('click');
+    alert("you have been registered, welcome User");
+  }

@@ -64,3 +64,13 @@ display: block;
   grid-row-gap: 20px;
   grid-column-gap: 5px;
 }
+
+ @media only screen and (max-width: 360px) {
+    .Sidemenu {
+      width: 25%;
+    }
+
+    .Main {
+      margin-left: 25%;
+    }
+ }
